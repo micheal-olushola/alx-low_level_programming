@@ -18,12 +18,10 @@
 		while (lim > R)
 		{
 			R = bef + aft;
-
 			if ((R % 2) == 0)
 			{
 				sum += R;
 			}
-			
 			bef = aft;
 			aft = R;
 		}
